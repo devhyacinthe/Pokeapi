@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100&family=Arima:wght@100&family=Roboto:wght@100&display=swap');
+
+*, ::after, ::before{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Arima', cursive;
+    font-weight: bolder;
+
+}
+
+.pokemons{
+    display: flex;
+    
+}
+
+.id{
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.name{
+    font-size: 30px;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: bolder;
+}
+.type{
+    font-size: 25px;
+    font-family: 'Arima', cursive;
+    font-weight: bolder;
+}
+.taille{
+    font-size: 18px;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.poids{
+    font-size: 18px;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+.pokemon{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-shadow: 8px;
+    background-color: white;
+}
+
+.image{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 200px;
+    transform: translate(75px, -5px);
+}
+
+.pokemonGrass{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-sizing: content-box;
+    box-shadow: 20px;
+    background-color: aquamarine;
+}
+
+.pokemonFire{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-shadow: 8px;
+    background-color: rgb(224, 134, 101);
+}
+
+.pokemonWater{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-shadow: 8px;
+    background-color: aqua;
+}
+
+.pokemonBug{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-shadow: 8px;
+    background-color: rgb(233, 182, 182);
+}
