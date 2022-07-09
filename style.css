@@ -7,6 +7,9 @@
 }
 
 body{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
     height: 100vh;
     background-color: antiquewhite;
 }
@@ -21,7 +24,8 @@ p{
 
 .pokemons{
     display: flex;
-    
+    height: 100vh;
+    width: auto;
 }
 
 .id{
@@ -64,7 +68,7 @@ p{
     background-color: white;
 }
 
-.image{
+.image {
     margin: 0;
     padding: 0;
     align-items: center;
@@ -116,3 +120,152 @@ p{
     box-shadow: 8px;
     background-color: rgb(233, 182, 182);
 }
+
+.pokemonGround{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-sizing: content-box;
+    box-shadow: 20px;
+    background-color: maroon;
+}
+
+.pokemonElectric{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-sizing: content-box;
+    box-shadow: 20px;
+    background-color: rgb(6, 6, 94);
+}
+
+.pokemonFighting{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-sizing: content-box;
+    box-shadow: 20px;
+    background-color: violet;
+}
+
+.pokemonPsychic{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-sizing: content-box;
+    box-shadow: 20px;
+    background-color: salmon;
+}
+
+.pokemonRock{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-sizing: content-box;
+    box-shadow: 20px;
+    background-color: gray;
+}
+
+.pokemonPoison{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-sizing: content-box;
+    box-shadow: 20px;
+    background-color: green;
+}
+
+.pokemonGhost{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-sizing: content-box;
+    box-shadow: 20px;
+    background-color: transparent;
+}
+
+.pokemonIce{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-sizing: content-box;
+    box-shadow: 20px;
+    background-color: rgb(38, 38, 251);
+}
+
+
+.pokemonDragon{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-sizing: content-box;
+    box-shadow: 20px;
+    background-color: red;
+}
+
+.pokemonFairy{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-sizing: content-box;
+    box-shadow: 20px;
+    background-color: yellowgreen;
+}
+
+.pokemonSteel{
+    margin: 15px;
+    padding: 3px;
+    color: black;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-sizing: content-box;
+    box-shadow: 20px;
+    background-color: rgb(96, 96, 96);
+}
+
+.pokemonDark{
+    margin: 15px;
+    padding: 3px;
+    color: white;
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    box-sizing: content-box;
+    box-shadow: 20px;
+    background-color: black;
+}
+
+
+
+
